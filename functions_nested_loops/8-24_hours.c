@@ -19,7 +19,7 @@ else if (i >= 10)
 _putchar((i / 10) + '0');
 _putchar((i % 10) + '0');
 }
-if (if < 10)
+if (i < 10)
 { 
 	_putchar(':');
 	_putchar('0');
