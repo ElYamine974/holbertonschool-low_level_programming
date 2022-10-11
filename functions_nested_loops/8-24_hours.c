@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-*jack bauer -> prints 24 hours
+*jack_bauer -> prints 24 hours
 */
 void jack_bauer(void)
 {
