@@ -4,7 +4,7 @@
 * @n: the passed args
 * Return: the last digit
 */
-int print last digit(int n)
+int print_last_digit(int n)
 {
 int x;
 if (n < 0)
