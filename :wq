@@ -1,0 +1,9 @@
+#include "main.h"
+/**
+* add - add two variables
+* Return: int the sum of the two variables
+*/
+int add(int a, int b)
+{ 
+  return (a+b)
+}
