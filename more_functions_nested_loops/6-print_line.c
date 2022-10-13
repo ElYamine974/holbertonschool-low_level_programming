@@ -1,4 +1,4 @@
-#include "main"
+#include "main.h"
 /**
 * print line -> printing line
 * @n: integer params
