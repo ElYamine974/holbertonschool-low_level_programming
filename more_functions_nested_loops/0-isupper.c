@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
 _isupper - Check if UPPERCASE
 * @c: an integer paramer
