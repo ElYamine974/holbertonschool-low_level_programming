@@ -2,7 +2,7 @@
 
 /**
 * _puts_recursion - function string the recursive
-* @: string parame
+* @s: string parame
 * puts_recursion(char *s)
 */
 
