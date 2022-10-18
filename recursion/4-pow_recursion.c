@@ -1,6 +1,5 @@
 #include "main.h"
 /**
-*
 * _pow_recursion - power using recursion
 * @x: x ^ у
 * @y: the power number
@@ -13,4 +12,4 @@ return (-1);
 if (y == 0)
 return (1);
 return (x * _pow_recursion(x, y - 1));
-} 
+}
