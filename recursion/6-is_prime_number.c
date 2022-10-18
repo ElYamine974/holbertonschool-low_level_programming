@@ -24,7 +24,7 @@ if (n <= 1)
 return (0);
 if (n % i == 0 && i > 1)
 return (0);
-if ( (n/i)<i)
+if ( (n/i) < i)
 return (1);
 return (check_prime(n, i + 1));
 }
