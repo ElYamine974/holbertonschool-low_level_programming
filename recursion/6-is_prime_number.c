@@ -4,7 +4,7 @@ int check_prime(int,  int);
 /**
 * is_prime_number - prime identifier
 * @n: is number
-* Return: integer   
+* Return: integer
 */
 int is_prime_number(int n)
 {
@@ -13,7 +13,7 @@ return (check_prime(n, 1));
 
 
 /**
-* check_prime - it check prime numbers 
+* check_prime - it check prime numbers
 *@n: number
 *@i: iterator
 * Return: a 1 or 0
