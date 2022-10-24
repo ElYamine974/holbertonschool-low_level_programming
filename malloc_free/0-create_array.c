@@ -6,6 +6,7 @@
 * Return: a pointer to the array, or NULL if it falls
 */
 char *create_array(unsigned int size, char c)
+{
 unsigned int i;
 char *p;
 
@@ -25,3 +26,4 @@ p[i] = c;
 p[i] = '\0';
 
 return (p);
+}
