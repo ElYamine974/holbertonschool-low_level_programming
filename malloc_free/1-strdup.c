@@ -4,14 +4,11 @@
 char * _strdup(char *str)
 {
   char * retour;
-  retour = malloc(sizeof(str)+1);
   int i =0;
-  char* p = str;
-while(p != '\0') 
+  retour = malloc(sizeof(str)+1);
+while(i = 0; i < sizeof(a) +1 ; i++) 
 {
   retour[i] = str[i];
-  i++;
-  p++;
 }
 retour[sizeof(str)] = '\0';
 
