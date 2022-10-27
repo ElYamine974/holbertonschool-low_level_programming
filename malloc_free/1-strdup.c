@@ -10,7 +10,7 @@ if (str == NULL)
 return NULL;
 }
 
-retour = malloc(sizeof(str)+1);
+retour = malloc((sizeof(str)+1)*sizeof(char));
 if (retour == NULL)
 {
 	return NULL;
