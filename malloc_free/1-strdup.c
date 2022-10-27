@@ -5,7 +5,8 @@ char * _strudup(char *str)
 {
   char * retour;
   retour = malloc(sizeof(str)+1);
-for(int i = 0; i<sizeof(str)-1;i++) 
+  int i;
+for(i = 0; i<sizeof(str)-1;i++) 
 {
   retour[i] = str[i];
 }
