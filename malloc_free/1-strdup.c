@@ -21,7 +21,7 @@ if (retour == NULL)
 {
 return (NULL);
 }
-while (i < len) 
+while (i < len)
 {
 retour[i] = str[i];
 i++;
