@@ -1,17 +1,17 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-char * _strdup(char *str)
+char *_strdup(char *str)
 {
-char * retour;
+char *retour;
 int i =0;
-int len = strlen(str);
+int len;
 if (str == NULL)
 {
 return NULL;
 }
-
-retour = malloc((len+1)*sizeof(char));
+len = strlen(str);
+retour = malloc((len + 1) * sizeof(char));
 if (retour == NULL)
 {
 	return NULL;
