@@ -4,22 +4,24 @@
 char * _strdup(char *str)
 {
 char * retour;
-size_t i =0;
+int i =0;
+int len = strlen(str);
 if (str == NULL)
 {
 return NULL;
 }
 
-retour = malloc((sizeof(str)+1)*sizeof(char));
+retour = malloc((len+1)*sizeof(char));
 if (retour == NULL)
 {
 	return NULL;
 }	
-for(i = 0; i < strlen(str) ; i++) 
+while(i < len) 
 {
   retour[i] = str[i];
+  i++;
 }
-retour[strlen(str)+1] = '\0';
+retour[i] = '\0';
 
 return retour;
 
