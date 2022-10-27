@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 /**
- * Returns a pointer to a newly allocated space in memory, which contains a copy of the string given as a parameter.
+ * _strdup - return a copy to a string
  * @str: str to copy
  * Return: copy of str
  */
@@ -17,10 +17,12 @@ return (NULL);
 }
 len = strlen(str);
 retour = malloc((len + 1) * sizeof(char));
-if (retour == NULL){
+if (retour == NULL)
+{
 return (NULL);
-}	
-while (i < len) {
+}
+while (i < len) 
+{
 retour[i] = str[i];
 i++;
 }
