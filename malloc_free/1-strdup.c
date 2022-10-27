@@ -5,7 +5,7 @@ char * _strdup(char *str)
 {
   char * retour;
   retour = malloc(sizeof(str)+1);
-  unsigned int i;
+  size_t i;
 for(i = 0; i<sizeof(str)-1;i++) 
 {
   retour[i] = str[i];
