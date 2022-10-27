@@ -4,7 +4,7 @@
 char * _strdup(char *str)
 {
   char * retour;
-  int i =0;
+ long unsigned int i =0;
   retour = malloc(sizeof(str)+1);
   
   for(i = 0; i < sizeof(str) +1 ; i++) 
