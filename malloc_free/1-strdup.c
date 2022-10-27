@@ -5,10 +5,13 @@ char * _strdup(char *str)
 {
   char * retour;
   retour = malloc(sizeof(str)+1);
-  size_t i;
-for(i = 0; i<sizeof(str)-1;i++) 
+  int i =0;
+  char* p = str;
+while(p != '\0') 
 {
   retour[i] = str[i];
+  i++;
+  p++;
 }
 retour[sizeof(str)] = '\0';
 
