@@ -5,6 +5,11 @@ char * _strdup(char *str)
 {
 char * retour;
 size_t i =0;
+if (str == NULL)
+{
+return NULL;
+}
+
 retour = malloc(sizeof(str)+1);
 if (retour == NULL)
 {
