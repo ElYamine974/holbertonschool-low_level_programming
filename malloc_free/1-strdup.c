@@ -1,22 +1,21 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+#include <string.h>
 char * _strdup(char *str)
 {
 char * retour;
-long unsigned int i =0;
+size_t i =0;
 retour = malloc(sizeof(str)+1);
 if (retour == NULL)
 {
 	return NULL;
 }	
-for(i = 0; i < sizeof(str) +1 ; i++) 
+for(i = 0; i < strlen(str) ; i++) 
 {
   retour[i] = str[i];
 }
-retour[sizeof(str)] = '\0';
+retour[strlen(str)+1] = '\0';
 
-free(retour);
 return retour;
 
 }
