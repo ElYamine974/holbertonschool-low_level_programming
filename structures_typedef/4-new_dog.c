@@ -12,7 +12,7 @@ dog_t *new_dog(char *name, float age, char *owner)
   {
    char* name_c;
    dog_t *dog;
-   name_c = memcpy(name_c,name,strlen(name));
+   strcpy(name_c, name);
    dog = malloc(sizeof(dog_t));
    if(dog != NULL)
    {
